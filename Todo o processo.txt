@@ -1,0 +1,15 @@
+Primeiramente acessa a pasta já criada no pycharm, e clica com o botão direito em cima da pasta, vai ter "Copy Path> Absolute Path", esse comando copia o diretório.
+1) Estou dentro de uma pasta que eu quero
+2) GIT BASH here no local que eu quero
+3) o comando abaixo cria uma segunda pasta dentro, e alimenta com o meu projeto que está
+dentro do github eu pego esse código dentro do code.
+git clone https://github.com/hibruna/exercicios_avaliativos.git
+enter
+4) Verifique se criou a pasta no diretório.
+5) Se eu marquei o readme, vai ter que ter isso dentro da pasta.
+6) Porém agora no git, vou precisar entrar na pasta que o comando criou no passo3.
+7) Então preciso digitar "cd nome_da_pasta".
+8) Tudo o que eu fazer lá vai estar atualizando conforme eu ir digitando "git status". 
+Vai mostrar as alterações em vermelho.
+9) "git add ." < Esse comando adiciona tudo o que eu alterei.
+10) Depois disso se der um git status, ele grava em verde o que foi adicionado.
