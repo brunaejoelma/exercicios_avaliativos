@@ -24,25 +24,20 @@ while continuar:
         print('Conta cadastrada com sucesso')
 
     elif valor_digitado == '3':
-        conta_corrente.aumentar_limite(input('Informe o novo limite: '))
+        conta_corrente.aumentar_limite(float(input('Informe o novo limite: ')))
         print('Limite alterado para:' + str(conta_corrente.limite_de_credito))
 
     elif valor_digitado == '4':
         conta_poupanca.deposito(input('Informe o valor do depósito: '), input('Informe o número da conta: '))
-        print('Depósito efetuado com sucesso. Novo saldo = ' + str(conta_poupanca.saldo))
-
 
     elif valor_digitado == '5':
         conta_corrente.deposito(input('Informe o valor do depósito: '), input('Informe o número da conta: '))
-        print('Depósito efetuado com sucesso. Novo saldo = ' + str(conta_corrente.saldo))
 
     elif valor_digitado == '6':
-        conta_poupanca.saque(input('Informe o valor a ser sacado: '), input('Informe o número da conta:'))
-        print('Saque efetuado com sucesso. Novo saldo = ' + str(conta_poupanca.saldo))
+        conta_poupanca.saque(float(input('Informe o valor a ser sacado: ')), input('Informe o número da conta:'))
 
     elif valor_digitado == '7':
-        conta_corrente.saque(input('Informe o valor a ser sacado: '), input('Informe o número da conta:'))
-        print('Saque efetuado com sucesso. Novo saldo = ' + str(conta_corrente.saldo))
+        conta_corrente.saque(float(input('Informe o valor a ser sacado: ')), input('Informe o número da conta:'))
 
     verificacao = input('Digite 0 se deseja fazer outra operação: ' )
 
