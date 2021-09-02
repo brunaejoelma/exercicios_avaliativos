@@ -4,5 +4,7 @@ from genero import Genero
 
 class Catalogo:
 
-    def listar_discos(self):
+    def __init__(self, titulo_catalogo):
+        self.titulo_catalogo = titulo_catalogo
+
 
